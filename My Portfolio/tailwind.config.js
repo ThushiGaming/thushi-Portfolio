@@ -15,9 +15,7 @@ export default {
         'custom2': '250px',
         'custom3': '1000px',
       },
-      fontFamily: {
-        'myfont':['JosefinSans-Regular']
-      }
+
     },
   },
   plugins: [],
