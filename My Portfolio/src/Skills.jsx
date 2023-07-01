@@ -17,6 +17,7 @@ import Davinci from "./assets/daVinci.png";
 import Blender from "./assets/blender.png";
 import Git from "./assets/git.png";
 import Reactimg from "./assets/react.png";
+import { motion, useMotionValue, useSpring } from "framer-motion";
 
 const Skills = () => {
   return (

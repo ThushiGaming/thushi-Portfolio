@@ -12,7 +12,7 @@ export default {
         'text2': '20px',
         'deve': '40%',
         'ptop': '23%',
-        'custom2': '400px',
+        'custom2': '250px',
         'custom3': '1000px',
       },
       fontFamily: {

@@ -1,20 +1,25 @@
 import React from "react";
 import "./App.css";
 import Tphoto from "./assets/photo.png";
+import Tilt from 'react-parallax-tilt';
+
 
 const About = () => {
   return (
-    <div class="w-screen h-screen bg-neutral-900">
-      <h1 className="text-white pl-custom text-7xl pt-custom w-deve">
-        Hi, I'm Thushi WebDeveloper
-      </h1>
-      <h3 className="text-zinc-600 pl-custom text-2xl pt-text2 ">
-        Front End Developer / JavaScript Fan / Wordpress Expert
-      </h3>
-      <img
-        src={Tphoto}
-        className="absolute left-deve top-ptop opacity-1 scale-125 "
-      ></img>
+    <div class="w-screen h-screen bg-neutral-900 flex">
+      <div className="w-1/2">
+        <h1 className="text-white  text-7xl  text-center pt-custom w-custom mx-auto">
+          Hi, I'm Thushi WebDeveloper
+        </h1>
+        <h3 className="text-zinc-600  text-2xl text-center  ">
+          Front End Developer / JavaScript Fan / Wordpress Expert
+        </h3>
+      </div>
+      <div className="w-1/2  select-none">
+        <Tilt>
+        <img src={Tphoto} className="opacity-1 pt-custom2 scale-125 mx-auto object-cover"></img>
+        </Tilt>
+      </div>
       {/* <div className="text-white pl-custom2 text-lg">
       <p>Professionally connected with the web development industry.</p>
       <p>Problem solver, well-organised person, loyal employee with high attention to detail.
