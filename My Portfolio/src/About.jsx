@@ -2,22 +2,31 @@ import React from "react";
 import "./App.css";
 import Tphoto from "./assets/photo.png";
 import Tilt from 'react-parallax-tilt';
+import Typewriter from 'typewriter-effect';
+
 
 
 const About = () => {
   return (
     <div class="w-screen h-screen bg-neutral-900 flex">
       <div className="w-1/2">
-        <h1 className="text-white  text-7xl  text-center pt-custom w-custom mx-auto">
-          Hi, I'm Thushi WebDeveloper
+        <h1 className="text-white  text-7xl md:text-6xl text-center pt-custom md:pt-52 w-custom mx-auto">
+          Hi, I'm Thushi 
+          <Typewriter
+  options={{
+    strings: ['WebDeveloper', 'UI/UX Designer','3D Designer', 'Video Editor'],
+    autoStart: true,
+    loop: true,
+  }}
+/>
         </h1>
-        <h3 className="text-zinc-600  text-2xl text-center  ">
-          Front End Developer / JavaScript Fan / Wordpress Expert
+        <h3 className="text-zinc-600  text-2xl md:text-lg text-center pt-8 ">
+          Front End Developer / Photo&Cinematographer / Wordpress Developper
         </h3>
       </div>
       <div className="w-1/2  select-none">
         <Tilt>
-        <img src={Tphoto} className="opacity-1 pt-custom2 scale-125 mx-auto object-cover"></img>
+        <img src={Tphoto} className="opacity-1 pt-custom2 md:pt-16 scale-125 md:scale-75 mx-auto object-cover"></img>
         </Tilt>
       </div>
       {/* <div className="text-white pl-custom2 text-lg">
