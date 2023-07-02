@@ -2,7 +2,9 @@ import React from 'react'
 
 const Project2 = () => {
   return (
-    <div>Project2</div>
+    <div className='w-screen h-screen'>
+
+    </div>
   )
 }
 

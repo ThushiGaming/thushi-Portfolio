@@ -14,6 +14,7 @@ export default {
         'ptop': '23%',
         'custom2': '250px',
         'custom4': '150px',
+        'custom5': '120px',
         'custom3': '1000px',
       },
 

@@ -22,7 +22,7 @@ import { motion, useMotionValue, useSpring } from "framer-motion";
 const Skills = () => {
   return (
     <>
-      <div className="w-screen h-screen bg-neutral-800">
+      <div className="w-screen h-screen bg-neutral-900">
         <h1 className="text-7xl text-white mx-auto	w-2/4 text-center pt-custom2 md:pt-custom4">
           Skills & Experience
         </h1>
