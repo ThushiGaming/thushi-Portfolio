@@ -5,7 +5,9 @@ import Contact from "./Contact";
 import Home from "./Home";
 import Projects from "./Projects";
 import Skills from "./Skills";
-import { Scroll, ScrollControls } from "@react-three/drei";
+import { OrbitControls, Scroll, ScrollControls } from "@react-three/drei";
+
+import { Cube_queen } from './models/Cube_queen'
 // import Navigation from "./Navigation";
 import { Canvas } from "@react-three/fiber";
 
@@ -14,7 +16,14 @@ function App() {
     <>
       <Canvas className="w-screen h-screen">
         <ScrollControls pages={5} damping={0.25}>
+          <ambientLight />
+          <pointLight position={[10, 10, 10]} />
+          <OrbitControls enableZoom={false}/>
           <Scroll>
+            <mesh position={[-2,-2,0]}>
+              <Cube_queen scale={2} />
+            </mesh>
+
           </Scroll>
           <Scroll html>
             <About />
@@ -24,7 +33,7 @@ function App() {
             <Contact />
           </Scroll>
         </ScrollControls>
-       </Canvas> 
+      </Canvas>
     </>
   );
 }

@@ -8,7 +8,7 @@ import Typewriter from 'typewriter-effect';
 
 const About = () => {
   return (
-    <div class="w-screen h-screen bg-neutral-900 flex">
+    <div class="w-screen h-screen  flex">
       <div className="w-1/2">
         <h1 className="text-white  text-7xl md:text-6xl text-center pt-custom md:pt-52 w-custom mx-auto">
           Hi, I'm Thushi 
