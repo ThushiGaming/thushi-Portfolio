@@ -21,12 +21,12 @@ const About = () => {
 />
         </h1>
         <h3 className="text-zinc-600  text-2xl md:text-lg text-center pt-8 ">
-          Front End Developer / Photo&Cinematographer / Wordpress Developper
+          Front End Developer / Cinematographer / Wordpress Developper
         </h3>
       </div>
       <div className="w-1/2  select-none">
         <Tilt>
-        <img src={Tphoto} className="opacity-1 pt-custom2 md:pt-16 scale-125 md:scale-75 mx-auto object-cover"></img>
+        <img src={Tphoto} className="opacity-1 pt-custom2 md:pt-16 scale-125 md:scale-75 mx-auto object-cover grayscale hover:grayscale-0 "></img>
         </Tilt>
       </div>
       {/* <div className="text-white pl-custom2 text-lg">
