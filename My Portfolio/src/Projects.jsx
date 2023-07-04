@@ -11,14 +11,14 @@ const Projects = () => {
         <div id="slide0" className="carousel-item relative w-full">
           <Project5></Project5>
           <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-            <a href="#slide4" className="btn glass">❮</a>
+            <a href="#slide3" className="btn glass">❮</a>
             <a href="#slide1" className="btn glass">❯</a>
           </div>
         </div>
         <div id="slide1" className="carousel-item relative w-full">
           <Project1></Project1>
           <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-            <a href="#slide4" className="btn glass">❮</a>
+            <a href="#slide0" className="btn glass">❮</a>
             <a href="#slide2" className="btn glass">❯</a>
           </div>
         </div>
@@ -33,7 +33,7 @@ const Projects = () => {
           <Project3></Project3>
           <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
             <a href="#slide2" className="btn glass">❮</a>
-            <a href="#slide4" className="btn glass">❯</a>
+            <a href="#slide0" className="btn glass">❯</a>
           </div>
         </div>
       </div>
