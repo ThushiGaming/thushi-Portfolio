@@ -8,25 +8,25 @@ import Typewriter from 'typewriter-effect';
 
 const About = () => {
   return (
-    <div class="w-screen h-screen  flex bg-neutral-900">
+    <div id='about' class="w-screen h-screen  flex bg-neutral-900 ">
       <div className="w-1/2">
-        <h1 className="text-white  text-7xl md:text-6xl text-center pt-custom md:pt-52 w-custom mx-auto ">
+        <h1 className="text-white lg:text-8xl md:text-6xl text-center pt-custom md:pt-52 lg:pt-custom lg:w-1/2 w-custom mx-auto ">
          <b> Hi, I'm Thushi </b>
-          <Typewriter
+          <Typewriter 
   options={{
-    strings: ['WebDeveloper', 'UI/UX Designer','3D Designer', 'Video Editor'],
+    strings: ['WebDeveloper', 'UI Designer','3D Designer', 'Video Editor'],
     autoStart: true,
     loop: true,
   }}
 />
         </h1>
-        <h3 className="text-zinc-500  text-2xl md:text-lg text-center pt-8 ">
+        <h3 className="text-zinc-500  text-2xl md:text-lg text-center pt-8 lg:text-3xl">
           Front End Developer / Cinematographer / Wordpress Developper
         </h3>
       </div>
       <div className="w-1/2  select-none">
         <Tilt>
-        <img src={Tphoto} className="opacity-1 pt-custom2 md:pt-16 scale-125 md:scale-75 mx-auto object-cover grayscale hover:grayscale-0 "></img>
+        <img src={Tphoto} className="opacity-1 lg:pt-custom2 md:pt-16 lg:scale-125 md:scale-75 mx-auto object-cover grayscale hover:grayscale-0 "></img>
         </Tilt>
       </div>
       {/* <div className="text-white pl-custom2 text-lg">

@@ -74,9 +74,9 @@ const Contact = () => {
 
   return (
 
-    <div className='h-screen w-screen bg-neutral-900 flex'>
+    <div id="contact" className='h-screen w-screen bg-neutral-900 flex'>
       <div className='w-1/2 '>
-        <h1 className="text-white  text-7xl md:text-5xl text-center pt-custom md:pt-32 w-custom ">Get in touch</h1>
+        <h1 className="text-white  lg:text-7xl md:text-5xl text-center lg:pl-custom6 lg:pt-custom md:pt-32 w-custom ">Get in touch</h1>
         <h6 className="text-white-300 w-custom pl-custom5 md:pt-10">Proin volutpat consequat porttitor cras nullam gravida at. Orci molestie a eu arcu. Sed ut tincidunt integer elementum id sem. Arcu sed malesuada et magna.</h6>
         <div className="flex md:pl-custom5">
           <div className="md:pt-10 ">
@@ -160,7 +160,7 @@ const Contact = () => {
       <div className='w-1/2 '>
         <form ref={formRef}
           onSubmit={handleSubmit} class="mx-auto pt-16 max-w-xl sm:pt-20">
-          <div class="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
+          <div class="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2 lg:pt-custom1">
             <div class="sm:col-span-2">
               <label for="name" class="block text-sm font-semibold leading-6 text-white-900">Name</label>
               <div class="mt-2.5">
@@ -185,7 +185,7 @@ const Contact = () => {
 
           </div>
           <div class="mt-10">
-            <button type="submit" class="block w-full rounded-md bg-indigo-600 px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Send Message</button>
+            <button type="submit" class="block w-full rounded-md bg-teal-500 px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-sm hover:bg-teal-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-bg-teal-600">Send Message</button>
           </div>
         </form>
       </div>

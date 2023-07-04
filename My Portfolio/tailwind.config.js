@@ -13,9 +13,11 @@ export default {
         'deve': '40%',
         'ptop': '23%',
         'custom2': '250px',
+        'custom1': '400px',
+        'custom3': '1000px',
         'custom4': '150px',
         'custom5': '120px',
-        'custom3': '1000px',
+        'custom6': '109px',
       },
 
     },

@@ -8,7 +8,6 @@ import Skills from "./Skills";
 import { OrbitControls, Scroll, ScrollControls } from "@react-three/drei";
 
 import { Cube_queen } from './models/Cube_queen'
-// import Navigation from "./Navigation";
 import { Canvas } from "@react-three/fiber";
 import ComputersCanvas from "./models/Computers";
 
