@@ -39,7 +39,7 @@ const Project1 = () => {
          
           <div className="lg:w-1/2 xl:w-3/5 dark:bg-gray-800 flex mx-auto md:pl-custom5 pointer-events-none select-none">
             <div className="flex items-center justify-center p-4 md:p-8 lg:p-12">
-              <img src="https://source.unsplash.com/640x480/" alt="" className="rounded-lg shadow-lg dark:bg-gray-500 aspect-video sm:min-h-96" />
+              <img src='../src/assets/uitemp.png' alt="" className="rounded-lg shadow-lg dark:bg-gray-500 aspect-video sm:min-h-96" />
             </div>
           </div>
         </div>
