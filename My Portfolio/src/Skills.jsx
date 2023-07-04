@@ -23,16 +23,16 @@ const Skills = () => {
   return (
     <>
       <div className="w-screen h-screen bg-neutral-900">
-        <h1 className="text-7xl text-white mx-auto	w-2/4 text-center pt-custom2 md:pt-custom4">
+        <h1 className="text-7xl text-white mx-auto	w-2/4 text-center pt-custom2 md:pt-custom4 select-none">
           Skills & Experience
         </h1>
-        <p className="text-1.5xl text-white mx-auto w-1/3 pt-5 text-center ">
+        <p className="text-1.5xl text-white mx-auto w-1/3 pt-5 text-center select-none ">
           HTML, CSS, JS, building small and medium web applications with Vue or
           React, custom plugins, features, animations, and coding interactive
           layouts. I have also full-stack developer experience with one of the
           most popular open source CMS on the web - WordPress
         </p>
-        <div className="relative flex flex-row flex-wrap w-1/3 md:w-1/2 mx-auto gap-10 pt-10  select-none">
+        <div className="relative flex flex-row flex-wrap w-1/3 md:w-1/2 mx-auto gap-10 pt-10  select-none ">
           <img src={Htmlimg} className="w-24 md:w-16 mx-auto grayscale hover:grayscale-0 "></img>
           <img src={Cssimg} className="w-24 md:w-16 mx-auto grayscale hover:grayscale-0"></img>
           <img src={Jsimg} className="w-24 md:w-16 mx-auto grayscale hover:grayscale-0"></img>
