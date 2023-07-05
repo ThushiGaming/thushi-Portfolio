@@ -37,7 +37,7 @@ const Project3 = () => {
           </div>
           <div className="lg:w-1/2 xl:w-3/5 dark:bg-gray-800 flex  lg:m-auto xl:m-auto pointer-events-none select-none ">
             <div className="flex items-center justify-center p-4 md:p-8 lg:p-12 md:pl-custom4 mx-auto xl:pl-custom6">
-              <img src="../src/assets/webesports.png" alt="" className="rounded-lg shadow-lg dark:bg-gray-500 aspect-video sm:min-h-96" />
+              <img src="https://cdn.discordapp.com/attachments/942421327229366273/1126141955231985747/webesports.png" alt="" className="rounded-lg shadow-lg dark:bg-gray-500 aspect-video sm:min-h-96" />
             </div>
           </div>
         </div>

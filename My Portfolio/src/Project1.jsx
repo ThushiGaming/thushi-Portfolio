@@ -39,7 +39,7 @@ const Project1 = () => {
          
           <div className="lg:w-1/2 xl:w-3/5 dark:bg-gray-800 flex  lg:m-auto xl:m-auto pointer-events-none select-none ">
             <div className="flex items-center justify-center p-4 md:p-8 lg:p-12 md:pl-custom4 mx-auto xl:pl-custom6">
-              <img src='../src/assets/uitemp.png' alt="" className="rounded-lg shadow-lg dark:bg-gray-500 aspect-video sm:min-h-96 xl:scale-80 justify-center" />
+              <img src='https://cdn.discordapp.com/attachments/942421327229366273/1126141956406378616/uitemp.png' alt="" className="rounded-lg shadow-lg dark:bg-gray-500 aspect-video sm:min-h-96 xl:scale-80 justify-center" />
             </div>
           </div>
         </div>
