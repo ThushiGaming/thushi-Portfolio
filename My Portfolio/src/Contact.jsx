@@ -76,7 +76,7 @@ const Contact = () => {
 
     <div id="contact" className='h-screen w-screen bg-neutral-900 flex'>
       <div className='w-1/2 '>
-        <h1 className="text-white  lg:text-7xl md:text-5xl text-center lg:pl-custom6 lg:pt-custom md:pt-32 w-custom ">Get in touch</h1>
+        <h1 className="text-white  xl:text-7xl md:text-5xl text-center lg:pl-custom6 xl:pt-custom5 md:pt-32 w-custom ">Get in touch</h1>
         <h6 className="text-white-300 w-custom pl-custom5 md:pt-10">Proin volutpat consequat porttitor cras nullam gravida at. Orci molestie a eu arcu. Sed ut tincidunt integer elementum id sem. Arcu sed malesuada et magna.</h6>
         <div className="flex md:pl-custom5">
           <div className="md:pt-10 ">
@@ -160,7 +160,7 @@ const Contact = () => {
       <div className='w-1/2 '>
         <form ref={formRef}
           onSubmit={handleSubmit} class="mx-auto pt-16 max-w-xl sm:pt-20">
-          <div class="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2 lg:pt-custom1">
+          <div class="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2 xl:pt-custom7">
             <div class="sm:col-span-2">
               <label for="name" class="block text-sm font-semibold leading-6 text-white-900">Name</label>
               <div class="mt-2.5">

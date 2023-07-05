@@ -2,7 +2,7 @@
 // import './App.css'
 import About from "./About";
 import Contact from "./Contact";
-import Home from "./Home";
+// import Home from "./Home";
 import Projects from "./Projects";
 import Skills from "./Skills";
 import { OrbitControls, Scroll, ScrollControls } from "@react-three/drei";
@@ -20,7 +20,7 @@ function App() {
        dpr={[1, 2]}
        camera={{ position: [20, 3, 5], fov: 25 }}
        gl={{ preserveDrawingBuffer: true }}>
-        <ScrollControls pages={5} damping={0.25}>
+        <ScrollControls pages={4} damping={0.25}>
           <ambientLight />
           <pointLight position={[10, 10, 10]} />
           <OrbitControls enableZoom={false}/>
@@ -35,7 +35,7 @@ function App() {
           </Scroll>
           <Scroll html>
             <About />
-            <Home />
+            {/* <Home /> */}
             <Skills />
             <Projects />
             <Contact />
