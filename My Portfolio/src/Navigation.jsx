@@ -28,7 +28,7 @@ const Navigation = () => {
     >
       <div class="w-screen flex flex-wrap items-center justify-between mx-auto p-4">
         <img
-          src="../src/assets/Logo.png"
+          src="https://cdn.discordapp.com/attachments/942421327229366273/1126134450015711284/Logo.png"
           class="h-8 mr-3 cursor-pointer"
           alt="Thushi Logo"
           onClick={() => {
