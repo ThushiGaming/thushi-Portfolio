@@ -28,7 +28,7 @@ const Navigation = () => {
     >
       <div class="w-screen flex flex-wrap items-center justify-between mx-auto p-4">
         <img
-          src="../src/assets/logo.png"
+          src="../src/assets/Logo.png"
           class="h-8 mr-3 cursor-pointer"
           alt="Thushi Logo"
           onClick={() => {
