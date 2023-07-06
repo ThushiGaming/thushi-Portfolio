@@ -77,7 +77,7 @@ const Contact = () => {
     <div id="contact" className='h-screen w-screen bg-neutral-900 flex'>
       <div className='w-1/2 '>
         <h1 className="text-white  xl:text-7xl md:text-5xl text-center lg:pl-custom6 xl:pt-custom5 md:pt-32 w-custom ">Get in touch</h1>
-        <h6 className="text-white-300 w-custom pl-custom5 md:pt-10">Proin volutpat consequat porttitor cras nullam gravida at. Orci molestie a eu arcu. Sed ut tincidunt integer elementum id sem. Arcu sed malesuada et magna.</h6>
+        <h6 className="text-white-300 w-custom pl-custom5 md:pt-10">Simply send a message using this form for contact me.</h6>
         <div className="flex md:pl-custom5">
           <div className="md:pt-10 ">
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-auto h-6 ">
@@ -189,7 +189,7 @@ const Contact = () => {
           </div>
         </form>
       </div>
-      <h6 className="absolute bottom-0 text-center w-full opacity-40 hover:opacity-100 cursor-not-allowed">Copyright © 2023 Thushi</h6>
+      <h6 className="absolute bottom-0 text-center w-full opacity-40 hover:opacity-100 cursor-not-allowed">© 2023. All rights reserved to Thushi</h6>
 
     </div>
   )

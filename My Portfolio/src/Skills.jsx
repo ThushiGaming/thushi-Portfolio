@@ -27,9 +27,9 @@ const Skills = () => {
           Skills & Experience
         </h1>
         <p className="md:text-1.5xl xl:text-1xl text-white mx-auto md:w-1/3 xl:w-1/2 md:pt-5 xl:pt-5 text-center select-none ">
-          HTML, CSS, JS, building small and medium web applications with Vue or
+          HTML, CSS, JS, building small and medium web applications with
           React, custom plugins, features, animations, and coding interactive
-          layouts. I have also full-stack developer experience with one of the
+          layouts. I have also developer experience with one of the
           most popular open source CMS on the web - WordPress
         </p>
         <div className="relative flex flex-row flex-wrap xl:w-30% md:w-1/2 mx-auto md:gap-10 xl:gap-15 pt-10  select-none ">

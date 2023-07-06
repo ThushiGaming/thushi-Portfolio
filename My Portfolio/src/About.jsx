@@ -21,7 +21,7 @@ const About = () => {
 />
         </h1>
         <h3 className="text-zinc-500  text-2xl lg:text-lg text-center pt-8 xl:text-2xl">
-          Front End Developer / Cinematographer / Wordpress Developper
+          Front End Developer / Cinematographer / Wordpress Developer
         </h3>
       </div>
       <div className="w-1/2  select-none">
